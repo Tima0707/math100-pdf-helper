@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Math100 — скачать PDF",
+  "version": "1.2.0",
+  "description": "Скачивает доступный PDF Math100 нажатием на значок расширения.",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "downloads"
+  ],
+  "action": {
+    "default_title": "Скачать PDF Math100"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
